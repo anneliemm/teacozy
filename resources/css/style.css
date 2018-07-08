@@ -6,6 +6,15 @@ body {
   background-color: black;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
+}
+.content {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 /*Header Styles*/
 header {
@@ -35,31 +44,45 @@ nav span {
 a {
   color: seashell;
 }
+
 /*Mission Section Styles*/
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.back-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#back-image {
   width: 1200px;
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-
 }
-.mission {
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  align-content: center;
-  width: 1200px;
-  height: 120px;
+}
+#back-image .mission {
+  width: 100%;
   background-color: black;
   margin: auto;
 
 }
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0;
+
+}
+/* Tea of the Month Section*/
+.tea-month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+.small-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.image {
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+}
+/*Locations Section*/
