@@ -70,7 +70,9 @@ h2, h3, h4 {
 .tea-month {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   width: 1000px;
 }
 .small-images {
@@ -81,7 +83,7 @@ h2, h3, h4 {
   margin: auto;
 }
 .image {
-  padding: 5px;
+  padding: 0 10px;
   width: 300px;
   height: 200px;
 }
